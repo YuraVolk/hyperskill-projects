@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main class="main">
+        <h1 class="main__heading">To-Do List</h1>
+        <div class="main-task">
+            <input type="text" id="input-task" class="main-task__input">
+            <label for="input-task" class="main-task__label">
+                <button id="add-task-button" class="main-task__button">Add Task</button>
+            </label>
+        </div>
+        <ul id="task-list" class="main-tasks">
+            <li class="main-tasks-item">
+                <label class="main-tasks-item__label">
+                    <input class="main-tasks-item__checkbox checkbox" type="checkbox">
+                    <span class="main-tasks-item__title task">Email David</span>
+                </label>
+                <button class="main-tasks-item__button delete-btn"></button>
+            </li>
+            <li class="main-tasks-item">
+                <label class="main-tasks-item__label">
+                    <input class="main-tasks-item__checkbox checkbox" type="checkbox">
+                    <span class="main-tasks-item__title task">Create ideal user persona guide</span>
+                </label>
+                <button class="main-tasks-item__button delete-btn"></button>
+            </li>
+            <li class="main-tasks-item">
+                <label class="main-tasks-item__label">
+                    <input class="main-tasks-item__checkbox checkbox" type="checkbox">
+                    <span class="main-tasks-item__title task">Set up A/B test</span>
+                </label>
+                <button class="main-tasks-item__button delete-btn"></button>
+            </li>
+        </ul>
+    </main>
+    <script src="./js/todoList.js"></script>
+</body>
+</html>
