@@ -1,0 +1,30 @@
+html.small-text {
+    font-size: 16px;
+}
+
+html.medium-text {
+    font-size: 24px;
+}
+
+html.large-text {
+    font-size: 29px;
+}
+
+html.larger-text {
+    font-size: 32px;
+}
+
+html.white-theme {
+    background-color: #fff;
+    color: #000;
+}
+
+html.yellow-theme {
+    background-color: #f5d328;
+    color: #000;
+}
+
+html.blue-theme {
+    background-color: #002452;
+    color: #fff;
+}

@@ -1,0 +1,15 @@
+html.small-text {
+    font-size: 16px;
+}
+
+html.medium-text {
+    font-size: 24px;
+}
+
+html.large-text {
+    font-size: 29px;
+}
+
+html.larger-text {
+    font-size: 32px;
+}

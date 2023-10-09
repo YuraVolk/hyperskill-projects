@@ -1,0 +1,158 @@
+html.small-text {
+    font-size: 16px;
+}
+
+html.medium-text {
+    font-size: 24px;
+}
+
+html.large-text {
+    font-size: 29px;
+}
+
+html.larger-text {
+    font-size: 32px;
+}
+
+html.white-theme {
+    background-color: #fff;
+    color: #000;
+}
+
+html.yellow-theme {
+    background-color: #f5d328;
+    color: #000;
+}
+
+html.blue-theme {
+    background-color: #002452;
+    color: #fff;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+body > * {
+    flex-grow: 1;
+}
+
+.header, .footer {
+    background-color: rgba(33, 33, 33, 0.15);
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-navigation, .footer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.3rem;
+    justify-content: center;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    padding: 0.5em;
+    box-sizing: border-box;
+    flex-grow: 1;
+}
+
+#accessibility-pane {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.button {
+    border: 4px solid #fff;
+    padding: 0.8em;
+    color: #fff;
+    background-color: rgba(72, 94, 245, 0.85);
+    border-radius: 0.5em;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+label, span {
+    padding: 6px;
+    margin-left: 1.5em;
+    font-size: 0.9em;
+    cursor: pointer;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+}
+
+[type="radio"] {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+[type="radio"] + span:after {
+    content: '';
+    display: inline-block;
+    width: 0.5em;
+    height: 0.5em;
+    vertical-align: 0.10em;
+    border-radius: 1em;
+    border: 0.35em solid #fff;
+    box-shadow: 0 0 0 0.10em #36B18D;
+    margin-left: 0.75em;
+    transition: 0.5s ease all;
+    transform: translateY(33%);
+}
+
+[type="radio"]:checked + span:after {
+    background: #36B18D;
+    box-shadow: 0 0 0 0.10em #36B18D;
+}
+
+[type="radio"]:focus + span::before {
+    font-size: 0.5em;
+    line-height: 1;
+    vertical-align: -0.125em;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0 5%;
+    gap: 2.5%;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: right;
+}
+
+h1, h2, h3 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: sans-serif;
+}
+
+img {
+    width: 20em;
+    height: 20em;
+}
+
+a {
+    color: inherit;
+}
