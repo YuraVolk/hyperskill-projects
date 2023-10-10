@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hypergram</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main class="main">
+        <canvas class="main__canvas" id="canvas"></canvas>
+        <aside class="main-settings">
+            <input type="file" value="Upload File" id="file-input">
+            <label class="main-settings__file" for="file-input">Upload file</label>
+            <label class="main-settings__label">
+                Brightness
+                <input type="range" id="brightness">
+            </label>
+            <label class="main-settings__label">
+                Contrast
+                <input type="range" id="contrast">
+            </label>
+            <label class="main-settings__label">
+                Transparent
+                <input type="range" id="transparent">
+            </label>
+            <button class="main-settings__button" id="save-button">Save Image</button>
+        </aside>
+    </main>
+    <script src="./index.js"></script>
+</body>
+</html>

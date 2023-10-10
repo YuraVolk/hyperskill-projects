@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 8px;
+    background-color: #b3b3b3;
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    font-family: Raleway, sans-serif;
+}
+
+.main {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.main__canvas {
+    flex: 1 0 0;
+    width: 0;
+}
+
+.main-settings {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 12px;
+    width: 20vw;
+    min-width: 200px;
+    height: inherit;
+    padding: 2.5vw;
+    box-sizing: border-box;
+    background-color: cadetblue;
+    font-weight: 600;
+}
+
+input[type=file] {
+    display: none;
+}
+
+.main-settings__file {
+    padding: 8px;
+    text-transform: uppercase;
+    background-color: darksalmon;
+    text-align: center;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.main-settings__button {
+    padding: 8px;
+    text-transform: uppercase;
+    background-color: #45385a;
+    text-align: center;
+    letter-spacing: 1px;
+    cursor: pointer;
+    font-family: inherit;
+    font-weight: inherit;
+    border: none;
+}
+
+.main-settings__label {
+    margin: 0 0 4px;
+    display: block;
+    text-align: center;
+}
+
+input[type=range] {
+    display: block;
+    width: 100%;
+}
