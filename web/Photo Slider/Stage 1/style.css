@@ -1,0 +1,8 @@
+.slider {
+    min-width: 318px;
+    max-width: 798px;
+    width: calc(75vw - 2px);
+    height: calc(75vh - 2px);
+    box-shadow: rgba(0, 0, 0, 0.2) 0 2px 15px 0, rgba(0, 0, 0, 0.25) 0 2px 20px 0;
+    border: 15.5px solid rgba(255, 255, 255, 0.23);
+}
