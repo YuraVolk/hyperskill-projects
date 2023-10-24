@@ -8,8 +8,8 @@ This repository contains my implementations of various projects from Hyperskill.
    * Projects completed: 25.
    * Projects published in this repository: 1.
 3. Kotlin.
-   * Projects completed: 11.
-   * Projects published in this repository: 6.
+   * Projects completed: 12.
+   * Projects published in this repository: 7.
   
 Please note that this list does not include outdated and updated project versions, which actually increase project count.
 The projects range through all difficulties as stated on Hyperskill:
