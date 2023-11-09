@@ -6,7 +6,7 @@ This repository contains my implementations of various projects from Hyperskill.
    * Projects published in this repository: 7.
 2. Java.
    * Projects completed: 26.
-   * Projects published in this repository: 2.
+   * Projects published in this repository: 3.
 3. Kotlin.
    * Projects completed: 12.
    * Projects published in this repository: 7.
