@@ -43,7 +43,6 @@ public class NumericMatrixProcessor {
                 if (option == MenuOption.EXIT) break;
                 System.out.printf("The result is:\n%s\n", option.algorithm.inputFromScanner());
             } catch (Exception exception) {
-                exception.printStackTrace();
                 System.out.println(MatrixAlgorithm.ERROR_MESSAGE);
             }
 
